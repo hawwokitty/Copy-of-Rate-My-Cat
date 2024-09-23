@@ -2,7 +2,7 @@ body {
   background-color: #fff46f;
   margin: 0;
   font-family: 'Work Sans', sans-serif;
-    background-image: url('https://hawwokitty.github.io/Copy-of-Rate-My-Cat/img/background1.png');
+    background-image: url('/Copy-of-Rate-My-Cat/img/background1.png');
     height: 100vh;
     width: 100vw;
   background-size: 100%;
@@ -38,14 +38,14 @@ body {
 }
 .styleCatInteractiveStars div {
   position: relative;
-  content: url('https://hawwokitty.github.io/Copy-of-Rate-My-Cat/img/star-empty.png');
+  content: url('/Copy-of-Rate-My-Cat/img/star-empty.png');
   cursor: pointer;
 }
 
 .styleCatInteractiveStars .filled {
-  content: url('https://hawwokitty.github.io/Copy-of-Rate-My-Cat/img/star-filled-in.png');
+  content: url('/Copy-of-Rate-My-Cat/img/star-filled-in.png');
 }
 .styleCatInteractiveStars div:hover,
 .styleCatInteractiveStars div:hover ~ div {
-  content: url('https://hawwokitty.github.io/Copy-of-Rate-My-Cat/img/star-filled-in.png');
+  content: url('/Copy-of-Rate-My-Cat/img/star-filled-in.png');
 }
