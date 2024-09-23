@@ -38,14 +38,14 @@ body {
 }
 .styleCatInteractiveStars div {
   position: relative;
-  content: url('/img/star-empty.png');
+  content: url('../img/star-empty.png');
   cursor: pointer;
 }
 
 .styleCatInteractiveStars .filled {
-  content: url('/img/star-filled-in.png');
+  content: url('../img/star-filled-in.png');
 }
 .styleCatInteractiveStars div:hover,
 .styleCatInteractiveStars div:hover ~ div {
-  content: url('/img/star-filled-in.png');
+  content: url('../img/star-filled-in.png');
 }
